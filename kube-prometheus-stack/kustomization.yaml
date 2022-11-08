@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
   - helm-repo.yaml
   - admin-credentials.yaml
+  - helm-release.yaml
