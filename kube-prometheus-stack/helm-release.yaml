@@ -84,13 +84,13 @@ spec:
     kubeControllerManager:
       enabled: true
       endpoints:
-        - 192.168.65.4
+        - 127.0.0.1
     kubeDns:
       enabled: false
     kubeEtcd:
       enabled: true
       endpoints:
-        - 192.168.65.4
+        - 127.0.0.1
       service:
         enabled: true
         port: 2381
@@ -98,11 +98,11 @@ spec:
     kubeProxy:
       enabled: true
       endpoints:
-        - 192.168.65.4
+        - 127.0.0.1
     kubeScheduler:
       enabled: true
       endpoints:
-        - 192.168.65.4
+        - 127.0.0.1
     kubeStateMetrics:
       enabled: true
     kubelet:
