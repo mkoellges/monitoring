@@ -15,6 +15,9 @@ spec:
   interval: 1m0s
   targetNamespace: monitoring
   values:
+    hostRootFsMount:
+      enabled: false
+      mountPropagation: HostToContainer
     alertmanager:
       enabled: true
       fullnameOverride: alertmanager
