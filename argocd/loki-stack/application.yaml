@@ -18,7 +18,7 @@ spec:
     repoURL: https://grafana.github.io/helm-charts
     targetRevision:  2.x
     helm:
-      releaseName: monitoring
+      releaseName: loki-stack
       values: |
         grafana:
           enabled: false
